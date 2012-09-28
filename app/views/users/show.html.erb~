@@ -12,7 +12,7 @@
 
 <p>Postok</p>
 <table border="2"<
-<%@posts.each do |post|%>
+<%posts.each do |post|%>
 <% post.content %>
 <%end%>
 
